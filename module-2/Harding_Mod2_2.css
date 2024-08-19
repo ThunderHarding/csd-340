@@ -1,0 +1,55 @@
+/* Base styles */
+html, body {
+    font-size: 16px;
+}
+
+/* Paragraph styles */
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+/* Heading styles */
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+}
+
+/* Introduction paragraph */
+.intro {
+    text-indent: 2em;
+}
+
+/* Sentence style */
+.sentence {
+    font-style: italic;
+}
+
+/* Address styles */
+address {
+    text-align: center;
+}
+
+address a {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+/* Pseudo-classes */
+address a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+address a:visited {
+    color: #8B008B; /* Example of a custom visited link color */
+}
