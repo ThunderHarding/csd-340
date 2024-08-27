@@ -1,0 +1,28 @@
+/* Container styling */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Heading styles */
+h1, h2, h3, h4 {
+    background-color: #4F3674; /* Choose your own color */
+    color: #FFFFFF; /* Choose your own font color */
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+/* Anchor tag styles */
+a {
+    color: #4F3674; /* Choose your own color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D6A800; /* Choose your own color */
+}
+
+a:visited {
+    color: #8B008B; /* Choose your own color */
+}
