@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment 9.3: JavaScript - Part 1">
+    <meta name="author" content="Your Name">
+    <meta name="keywords" content="HTML, CSS, Assignment">
+    <meta name="robots" content="index, follow">
+    <title>CSD 340 Development with HTML and CSS</title>
+    <link rel="stylesheet" href="Harding_Mod2_2.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <h2>Chapter 1: HTML</h2>
+        
+        <p>President Whitmore's Speech</p>
+        <p>Good morning. In less than an hour, aircrafts from here will join others from around the world and you will be launching the largest <span id="firstWord">_________</span> battle.</p>
+        <p>We will be fighting for our <span id="secondWord">_________</span> and we will achieve <span id="thirdWord">_________</span>.</p>
+        <p>Our <span id="fourthWord">_________</span> will lead us to victory.</p> <!-- Added this line to use the fourth variable -->
+
+        <button type="button" onclick="document.getElementById('firstWord').innerHTML = firstWord">Fill First Word</button>
+        <button type="button" onclick="document.getElementById('secondWord').innerHTML = secondWord">Fill Second Word</button>
+        <button type="button" onclick="document.getElementById('thirdWord').innerHTML = thirdWord">Fill Third Word</button>
+        <button type="button" onclick="document.getElementById('fourthWord').innerHTML = fourthWord">Fill Fourth Word</button> <!-- Added this button for the fourth word -->
+
+        <script>
+            var firstWord = "aerial";
+            var secondWord = "battle";
+            var thirdWord = "freedom";
+            var fourthWord = "spirit";
+        </script>
+
+        <hr>
+
+        <address>
+            <p><a href="https://www.bellevue.edu">Bellevue University</a></p>
+            <p>1000 Galvin Road South</p>
+            <p>Bellevue, NE 68005</p>
+        </address>
+    </div>
+</body>
+</html>
