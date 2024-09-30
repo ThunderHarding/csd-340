@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <style>
+        img { width: 150px; margin: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <p>Click an image to see what happens!</p>
+    <img src="dog1.jpg" alt="dog1" onclick="changeImage(this)">
+    <img src="dog2.jpg" alt="dog2" onclick="changeImage(this)">
+    <img src="dog3.jpg" alt="dog3" onclick="changeImage(this)">
+    
+    <script>
+        function changeImage(img) {
+            img.src = "newImage.jpg";  // Replace with your actual image path
+            alert('Image has been changed!');
+        }
+    </script>
+</body>
+</html>
